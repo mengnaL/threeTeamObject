@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+#Top{
+	width:1907;
+	height: 120px;
+	border-bottom: 1px solid #eee;
+}
+#Top #nav{
+	width: 1160px;
+	height: 120px;
+	margin: 0 auto;
+}
+#Top #nav #img{
+	margin-top: 20px;
+}
+#Top #nav #ul{
+	width: 970px;
+	position: relative;
+	top: -52px;
+	left: 180px;
+}
+#Top #nav #ul li{
+	width: 120px;
+	height: 15px;
+	border-left: 1px solid #ccc;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 15px;
+}
+#Top #nav #ul li a{
+	text-decoration: none;
+	color: #6f6f6f;
+	font-size: 14px; 
+}
+#Top #nav #ul li a .b{
+	color: blue;
+}
+#Top #nav #ul li div{
+	width: 120px;
+	border: 1px solid gray;
+	background: white;
+	margin-top: 20px;
+}
+#Top #nav #ul li.U-one .a:hover,#Top #nav #ul li.U-two .a:hover,#Top #nav #ul li.U-three .a:hover{
+	color: #007aff;
+}
+.one,.two,.three{
+	display: none;
+}
+#Top #nav #ul li div a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+#Top #nav #ul li div a:hover{
+	background: #007aff;
+	color: white;
+}

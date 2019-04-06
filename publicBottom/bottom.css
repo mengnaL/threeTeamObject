@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+.tail{
+	width: 520px;
+	height: 290px;
+	margin:50px auto;
+	color: #666;
+}
+.tail a{
+	color: #666;
+	text-decoration: none;
+}
+.tail a:hover{
+	color: #00b4ff;
+}
+.tail .T-a{
+	width: 380px;
+	margin: 0 auto;
+}
+.tail .T-a a{
+	margin-left: 20px;
+}
+.tail .T-a a:hover{
+	color: #00b4ff;
+}
+.tail .T-aa{
+	margin-left: 190px;
+	position: relative;
+	top: 20px;
+}
