@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+    
+   
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+ #Top{
+	width:1907;
+	height: auto;
+	padding-top:20px;
+	background-color: #1E78EB;
+	/* border-bottom: 1px solid #eee; */
+}
+ #Top #nav{
+	width: 1160px;
+	height: 120px;
+	margin: 0 auto;
+}
+ #Top #nav #img{
+	margin-top: 20px;	
+}
+ #Top #nav #ul{
+	width: 970px;
+	position: relative;
+	top: -35px;
+	left: 180px;
+}
+ #Top #nav #ul li{
+	width: 120px;
+	height: 15px;
+	border-left: 1px solid #ccc;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 15px;
+}
+ #Top #nav #ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px; 
+}
+ #Top #nav #ul li a .b{
+	color: white;
+}
+ #Top #nav #ul li div{
+	width: 120px;
+	/* border: 1px solid gray; */
+	/* background: white; */
+	margin-top: 20px;
+}
+ #Top #nav #ul li.U-one .a:hover, #Top #nav #ul li.U-two .a:hover, #Top #nav #ul li.U-three .a:hover{
+	color: #007aff;
+}
+.one,.two,.three{
+	display: none;
+}
+ #Top #nav #ul li div a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+ #Top #nav #ul li div a:hover{
+	background: #007aff;
+	color: white;
+}
+
+.logo{
+    width: 1100px;
+    height: auto;
+    margin:0 auto;
+	/* border:1px solid;    */
+	position: relative;
+}
+#Top .logo .abb{
+	width: 1200px;
+	height: 5px;
+	position: absolute;
+	top: 450px;
+	left:200px;
+	
+}
+#Top .logo .abb span{
+	display: inline-block;
+	border:2px solid;
+	padding: 10px 30px;
+	color:white;
+	margin:10px;
+}
+#Top .logo .abb .span1{
+	background-color: aliceblue;
+	color:#007aff;
+}
+.photoWall,.photoWall2{
+	width: 1200px;
+	height: 630px;
+	margin: 0 auto;
+}
+.photoWall h2,.photoWall2 h2{
+	width: 1200px;
+	height: 50px;
+	margin-top:150px;
+	text-align: center;
+	font-size: 30px;
+}
+.photoWall p,.photoWall2 p{
+	width: 1200px;
+	height: 30px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom:50px;
+}
+.photoWall2 p a{
+	font-size: 13px;
+}
+.photoWall2 ul{
+	width: 395px;
+	float: left;
+}
+.photoWall2 ul li{
+	margin:2px;
+	float: left;
+}
+.photoWall2 ul .li1{
+	width: 150px;
+	height: 150px;
+}
+.photoWall2 ul .li1 img{
+	width: 150px;
+	height: 150px;
+
+}
+.photoWall2 ul .li2{
+	width: 235px;
+	height: 150px;
+	position: relative;
+}
+.photoWall2 ul .li2 span{
+	display:inline-block;
+	width: 235px;
+	height: 150px;
+	background:blue;
+	position: absolute;
+	top:150px;
+	left:0;
+
+}
+.photoWall2 ul .li2 img{
+	width: 235px;
+	height: 150px;
+
+}
+.photoWall2 ul .li3{
+	width: 237px;
+	height: 237px;
+}
+.photoWall2 ul .li3 img{
+	width: 237px;
+	height: 237px;
+
+}
+.photoWall2 ul .li4{
+	width: 150px;
+	height: 237px;
+}
+.photoWall2 ul .li4 img{
+	width: 150px;
+	height: 237px;
+}
+
