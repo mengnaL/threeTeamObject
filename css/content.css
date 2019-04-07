@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#J-box{
+	width: 960px;
+	margin: 35px auto;
+}
+#J-box aside{
+    font-family: 'Myriad Pro';
+    color: #737373;
+    border-top: 3px solid #067efc;
+    float: left;
+    width: 76px;
+    text-align: center;
+    padding-top: 13px;
+}
+#J-box aside .day{
+    font-size: 48px;
+    line-height: 42px;
+}
+#J-box aside .month{
+	font-size: 16px;
+}
+#J-box .dynamic-list{
+    padding: 0 25px 0 188px;
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+section .note {
+    color: #737373;
+    font-size: 14px;
+}
+section .note p {
+    line-height: 22px;
+    padding-bottom: 40px;
+}
+section a {
+    color: #2e2e2e;
+    font-size: 12px;
+    font-weight: 100;
+}
+.line2 {
+    border: 0;
+    border-bottom: 1px dashed #7994b6;
+    margin: 10px 0 24px 0;
+    width: 741px;
+}
