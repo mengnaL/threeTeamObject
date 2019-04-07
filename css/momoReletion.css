@@ -19,7 +19,7 @@
 #bot_box{
 	width: 1005px;
 	height: 100%;
-	margin: 0 auto;
+	margin: -450px auto;
 }
 #bot_box #releLeft{
 	width: 200px;

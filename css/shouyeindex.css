@@ -19,7 +19,7 @@ a{
 	height: auto;
 	padding-top:20px;
 	background-color: #1E78EB;
-	/* border-bottom: 1px solid #eee; */
+
 }
  #Top #nav{
 	width: 1160px;
@@ -54,8 +54,8 @@ a{
 }
  #Top #nav #ul li div{
 	width: 120px;
-	/* border: 1px solid gray; */
-	/* background: white; */
+	z-index: 100;
+	position: relative;
 	margin-top: 20px;
 }
  #Top #nav #ul li.U-one .a:hover, #Top #nav #ul li.U-two .a:hover, #Top #nav #ul li.U-three .a:hover{
