@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+#R-box #Top{
+	width:1907;
+	height: 120px;
+	border-bottom: 1px solid #eee;
+}
+
+/*登录*/
+#R-box #bottom .register{
+	width: 432px;
+	height: 298px;
+	border: 1px solid black;
+	margin: 30px auto;
+}
+#R-box #bottom .register span{
+	font-size: 20px;
+	width: 165px;
+	/*border: 1px solid red;*/
+	height: 35px;
+	border-radius: 5px;
+	display:inline-block;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 30px;
+	margin-top: 15px;
+	cursor: pointer;
+	color: #999;
+}
+#R-box #bottom .register span.tabhover{
+	background: #eee;
+}
+#R-box #bottom .register form{
+	width: 360px;
+	border-top: 1px dashed #999;
+	margin:15px auto;
+	position: relative;
+}
+#R-box #bottom .register .tabhover{
+	background: #eee;
+	color: #666;
+}
+#R-box #bottom .register .account .user{
+	width: 340px;
+	height: 40px;
+	border: 1px solid #ccc;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #999;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+#R-box #bottom .register .account i{
+	position: absolute;
+	top: 32px;
+	font-style: normal;
+	right: 30px;
+	color: #00b4ff;
+	display: none;
+}
+#R-box #bottom .register .pull{
+	display: none;
+}
+#R-box #bottom .register .pull .button{
+	width: 130px;
+	height: 40px;
+	border: 1px solid #ccc;
+	background: white;
+	font-size: 18px;
+	border-radius: 5px;
+	color: #999;
+	margin-top: 20px;
+}
+#R-box #bottom .register .pull ul{
+	width: 130px;
+	height: 160px;
+	border: 1px solid #ccc;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #666;
+	overflow: scroll;
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+#R-box #bottom .register .pull ul li{
+	height: 30px;
+	border-top:1px solid #ccc;
+	line-height: 30px;
+	width: 90px; 
+	margin-left: 10px;
+	cursor: pointer;
+}
+#R-box #bottom .register .pull ul li:hover{
+	background: #ccc;
+}
+#R-box #bottom .register .pull .shouji{
+	width: 190px;
+	height: 40px;
+	position: absolute;
+	left: 150px;
+	top: 20px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #999;
+	padding-left: 20px;
+}
+#R-box #bottom .register .password{
+	width: 340px;
+	height: 40px;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	padding-left: 20px;
+	color: #999;
+}
+#R-box #bottom .register .submit{
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	background: #00b4ff;
+	color: white;
+	top: 150px;
+	left: 90px;
+	position: absolute;
+	font-size: 16px;
+	border: 1px solid #00b4ff;
+}
+#R-box #bottom .register .ii{
+	position: absolute;
+	top: 32px;
+	right: 30px;
+	color: #00b4ff;
+	font-style: normal;
+}
+#R-box #bottom .register .i{
+	position: absolute;
+	top: 93px;
+	right: 30px;
+	color: #00b4ff;
+	font-style: normal;
+}
+#R-box .find{
+	width: 140px;
+	margin: 0 auto;
+	margin-top: -70px;
+}
+
+
+/*帮助中心*/
+#H-box{
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+#H-box #B-ul{
+	width: 200px;
+	border-right: 2px solid #ccc;
+	/*border: 1px solid red;*/
+}
+#H-box #B-ul .action{
+	width: 35px;
+	height: 35px;
+}
+#H-box #B-ul .active{
+	font-size: 25px;
+}
+#H-box #B-ul li img{
+	width: 30px;
+	height: 30px;
+}
+#H-box #B-ul li{
+	width: 180px;
+	height: 70px;
+	/*border: 1px solid red;*/
+	cursor: pointer;
+}
+#H-box #B-ul li span{
+	margin-left: 20px;
+	font-size: 20px;
+	color: #666;
+	position: relative;
+	top: -10px;
+}
+#H-box #B-search{
+	width: 750px;
+	/*border: 1px solid red;*/
+	margin-left: 250px;
+	margin-top: -980px;
+}
+#H-box #B-search input{
+	width: 560px;
+	height: 35px;
+	padding-left: 20px;
+}
+#H-box #B-search button{
+	width: 90px;
+	height: 35px;
+	background: url(img/6.png);
+	border: none;
+	position: relative;
+	top: 14px;
+	left: 10px;
+}
+#H-box #B-search div{
+	margin-top: 50px;
+}
+#H-box #B-search div ul p{
+	font-size: 20px;
+	color: #1e78e7;
+}
+#H-box #B-search ul{
+	float: left;
+	margin-left:50px;
+}
+#H-box #B-search ul li{
+	height: 30px;
+	line-height: 30px;
+}
+#H-box #B-search ul a{
+	color: #666;
+}
+#H-box #B-search span{
+	position: relative;
+	top: 30px;
+	font-size: 15px;
+}
+#H-box #B-search ul a:hover{
+	text-decoration: underline;
+}
