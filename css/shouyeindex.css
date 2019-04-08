@@ -58,9 +58,9 @@ a{
 	position: relative;
 	margin-top: 20px;
 }
- #Top #nav #ul li.U-one .a:hover, #Top #nav #ul li.U-two .a:hover, #Top #nav #ul li.U-three .a:hover{
+/* #Top #nav #ul li.U-one .a:hover, #Top #nav #ul li.U-two .a:hover, #Top #nav #ul li.U-three .a:hover{
 	color: #007aff;
-}
+}*/
 .one,.two,.three{
 	display: none;
 }

@@ -74,6 +74,10 @@
    margin-bottom: 9px;
    color: #8b8b8b;
 }
+#right_a #righta_li1:hover{
+	background-color: blue;
+	color: white;
+}
 #right_a #righta_li2{
 	width: 240px;
     height: 125px;
