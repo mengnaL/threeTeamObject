@@ -1,53 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<style>
-	#cat img{
-		margin-left:300px;
-		margin-top:-80px;
-		z-index:2;
-	}
-	#cat1{
-		margin-top:-90px;
-	}
-	#cat1 img{
-		margin-left:330px;
-		margin-top:-1000px;
-	}	
-	#dog{
-   margin-top:100px;
-   margin-left:300px;
-	
-	}
-	#dog ul li{
-		list-style:none;
-	}
-	#dog1{
-		margin-top:80px;
-		margin-left:300px;
-	}
-	</style>
-</head>
-<body>
-	<iframe src="publicTop/head.html" width="100%" height="200px"
-frameborder="0" scrolling="no"></iframe>
-<div id="cat">
-<img src="images/img/ditu.png"></div>
-<div id="cat1">
-<img src="images/img/ditu2.png"></div>
-<div id="dog">
-<img src="images/img/2019-04-07_185016.png"></div>
-<div id="dog1">
-<h3>客服帮助</h3><br/>
-<span>为及时解决您的问题，建议您通过客户端提交意见反馈，我们会尽快在24小时内受理您的问题</span>
-<p>1.客服帮助：请通过客户端帮助界面或点击 http://t.cn/REL2vCi搜索相关问题联系在线客服</p>
-<p>2. 解封相关事宜，请到 http://www.immomo.com/my 自助查询</p>
-<iframe src="publicBottom/bottom.html" width="800px" height="350px"
-frameborder="0" scrolling="no"></iframe>
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Document</title>
+			<style>
+			html{height:400px;}  
+		body{
+			height:100%;
+			margin:0px;
+			padding:0px;
+		}
+
+			#container{
+				height:100%;width:1000px;margin:0 auto;}
+			}
+			#main{
+				width:700px;
+				height:200px;
+				border:1px solid gray;
+				margin:0 auto;
+			}
+			#main p{
+				height:184px;
+				width:684px;
+				line-height:184px;
+				margin:0 auto;
+			}
+			#dog1{
+				height:100%;
+				width:100%;
+				margin:0 auto;
+			}
+			#dog1 h3{
+				text-align:center;
+			}
+			#dog1 p{
+				text-align:center;
+			}
+			</style>
+			<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GbLBG0iSnUi7hvBVdWxAm0qCvK46SsFu">
+		</script>
+		</head>
+		<body>
+			<iframe src="publicTop/head.html" width="100%" height="200px"
+		frameborder="0" scrolling="no"></iframe>
+		<div id="container"></div>
+		<div id="main">
+		<p><img src="img/2019-04-07_185016.png"></p></div>
+		<div id="dog1">
+		<h3>客服帮助</h3><br/>
+		<p>为及时解决您的问题，建议您通过客户端提交意见反馈，我们会尽快在24小时内受理您的问题</p>
+		<p>1.客服帮助：请通过客户端帮助界面或点击 http://t.cn/REL2vCi搜索相关问题联系在线客服</p>
+		<p>2. 解封相关事宜，请到 http://www.immomo.com/my 自助查询</p><br/>
+		<br/>
+		<iframe src="publicBottom/bottom.html" width="100%" height="100%"
+		frameborder="0" scrolling="no"></iframe>
+		<script type="text/javascript"> 
+
+		var map = new BMap.Map("container");          // 创建地图实例  
+
+		var point = new BMap.Point(119.3,26.08);  // 创建点坐标  
+
+		map.centerAndZoom(point, 15);                 // 初始化地图，设置中心点坐标和地图级别 
+
+		var marker = new BMap.Marker(point);        // 创建标注    
+
+		map.addOverlay(marker);                     //将标注添加到地图中
+
+		var opts1 = {type: BMAP_NAVIGATION_CONTROL_LARGE} 
+
+		map.addControl(new BMap.NavigationControl(opts1)); 
+
+		var opts2 = {offset: new BMap.Size(150, 5)}  
+
+		map.addControl(new BMap.ScaleControl(opts2)); 
+
+		map.addControl(new BMap.OverviewMapControl());    
+
+		map.addControl(new BMap.MapTypeControl());    
+
+		map.setCurrentCity("北京");   
+
+		</script>  
 
 
 
-</body>
-</html>
+		</body>
+		</html>

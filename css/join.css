@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+
+/*join*/
+/* logostart */
+ .joinLogo{
+	width: 970px;
+	margin:0 auto;
+}
+ .joinLogo span{
+	display:block;
+	width: 20px;
+	height: 4px;
+	background:#1E78E7;
+	margin:10px auto 0;
+}
+/* logoend */
+/* contentstart */
+ .joinContent{
+	width: 970px;
+	padding:100px 0;
+	margin-top: 20px;
+	/* background:red; */
+	margin:0 auto;
+	text-align: center;
+	font:12/2 "微软雅黑";
+}
+.joinNav{
+	width: 100%;
+	position: relative;
+
+}
+ .joinNav ul{
+	width: 970px;
+	height: 50px;
+	/* border:1px solid; */
+	margin:0 auto;
+	background:white;
+	
+}
+ .joinNav li{
+	width: 94px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border:1px solid #ccc;
+	float: left;
+	cursor: pointer;
+}
+ .recruit{
+	width: 970px;
+	height: auto;
+	margin:30px auto 0;
+	border:1px solid #ccc;
+}
+ .recruit h3, .recruit .require{
+	width: 970px;
+	height: 50px;
+	/* border:1px solid #ccc; */
+	line-height:50px;
+}
+ .recruit h3 span{
+	font-size: 18px;
+	color:#000;
+	font-weight: 500;
+}
+
+ .recruit h3 .title1{
+	margin-left: 30px;
+}
+ .recruit h3 .title2{
+	margin-left: 420px;
+}
+ .recruit h3 .title3{
+	margin-left: 130px;
+}
+ .recruit h3 .title4{
+	margin-left: 100px;
+}
+
+.recruit .require div{
+	
+	width: 970px;
+	height: 100%;
+	padding: 10px 0;
+	/* border:1px solid; */
+	display: none;
+	padding-top: 30px;
+}
+.recruit .require div p{
+	background: #eee;
+	width: 930px;
+	height: 25px;
+	font-size: 15px;
+	border:0;
+	color:#888;
+	line-height: 25px;
+	margin-left:10px;
+	padding-left: 14px;
+	
+}
+ .recruit .require p{
+	display:inline-block;
+	font-size: 12px;
+	color:#999;
+	float: left;
+	/* border:1px solid; */
+	border-bottom: 1px solid #ccc;
+}
+ .recruit .require .statement{
+	width: 458px;
+	padding-left: 30px;
+}
+.recruit .require .statement span{
+	float: left;
+}
+.recruit .require .statement i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left:5px;
+	float: left;
+	background: url(../images/icon.png);
+	margin-top:14px;
+}
+.recruit .require .statement .i2{
+	background: url(../images/icon.png)no-repeat -32px 0
+
+}
+
+ .recruit .require .category{
+	width:170px;
+}
+ .recruit .require .workingGround{
+	width:155px;
+}
+ .recruit .require .releaseTime{
+	width:145px;
+}
+.recruit .technologica{
+	display: none;
+}
+/* contentend */
