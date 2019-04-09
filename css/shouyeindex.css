@@ -6,9 +6,7 @@ li{
 	list-style: none;
 }
 body{
-    font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
-    
-   
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体"; 
 }
 a{
 	text-decoration: none;
@@ -16,7 +14,7 @@ a{
 }
  #Top{
 	width:1907;
-	height: auto;
+	height: 655px;
 	padding-top:20px;
 	background-color: #1E78EB;
 
@@ -73,7 +71,7 @@ a{
 	transition: all 0.2s;
 }
  #Top #nav #ul li div a:hover{
-	background: #007aff;
+	background: #0c5dbf;
 	color: white;
 }
 
@@ -81,8 +79,42 @@ a{
     width: 1100px;
     height: auto;
     margin:0 auto;
-	/* border:1px solid;    */
 	position: relative;
+}
+.logo #bigImg{
+	width: 1290px;
+	height: 535px;
+    position: relative;
+}
+.logo #bigImg #oneimg_a{
+	width: 1290px;
+	height: 535px;
+	z-index: 100;
+}
+#bigImg #play{
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	left: 605px;
+	margin-top: -380px;
+}
+#bigImg #video{
+	width: 945px;
+	height: 525px;
+	border: 3px solid black;
+	margin-top: -550px;
+	position: absolute;
+	z-index: 100;
+	background-color: black;
+	display: none;
+}
+#bigImg #video img{
+	position: absolute;
+	z-index: 200;
+    left: 895px;
+}
+#video #vedio_img{
+	float: right;
 }
 #Top .logo .abb{
 	width: 1200px;
@@ -148,20 +180,47 @@ a{
 	height: 150px;
 	position: relative;
 }
-/*.photoWall2 ul .li2 span{
-	display:inline-block;
+.photoWall2 ul .li3{
+	width: 237px;
+	height: 237px;
+	position: relative;
+}
+.photoWall2 ul li{
+	overflow: hidden;
+}
+.li2 div{
 	width: 235px;
 	height: 150px;
-	background:blue;
+	background:rgb(1,122,255);
 	position: absolute;
 	top:150px;
 	left:0;
-
-}*/
+	transition:all 0.5s;
+	color: white;
+}
+.li3 div{
+	width: 237px;
+	height: 237px;
+	background:rgb(1,122,255);
+	position: absolute;
+	top:237px;
+	left:0;
+	transition:all 0.5s;
+	color: white;
+}
+.li2 div span,.li3 div span{
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.li2:hover div,.li3:hover div{
+    transform:translateY(-150px);
+    display: block;
+}
 .photoWall2 ul .li2 img{
 	width: 235px;
 	height: 150px;
-
 }
 .photoWall2 ul .li3{
 	width: 237px;
@@ -170,7 +229,6 @@ a{
 .photoWall2 ul .li3 img{
 	width: 237px;
 	height: 237px;
-
 }
 .photoWall2 ul .li4{
 	width: 150px;
@@ -180,4 +238,74 @@ a{
 	width: 150px;
 	height: 237px;
 }
-
+#tubiao{
+	width: 1055px;
+	height: 245px;
+	margin: 0 auto;
+}
+#tubiao li{
+	width: 245px;
+	height: 245px;
+	color: #8b8a8a;
+	border: 1px solid #ccc;
+	text-align: center;
+	float: left;
+	margin-right: 15px;
+}
+#tubiao li:hover{
+	background-color: rgb(1,122,255);
+	color: white;
+	box-shadow: 10px 10px 5px #888888;
+}
+#tubiao li:hover #tu_a{
+	background:url(../images/iconBack.png) 0px -107px;
+	width: 45px;
+	height: 55px;
+	display: block;
+	margin-left: 103px;
+	margin-top: 68px;
+}
+#tubiao li #tu_a{
+	background:url(../images/iconBack.png);
+	width: 45px;
+	height: 55px;
+	display: block;
+	margin-left: 103px;
+	margin-top: 68px;
+}
+#tubiao li:hover #tu_b{
+	background:url(../images/iconBack.png)-78px -107px;
+	width: 45px;
+	height: 55px;
+	display: block;
+	margin-left: 103px;
+	margin-top: 68px;
+}
+#tubiao li #tu_b{
+	background:url(../images/iconBack.png)-78px 0px;
+	width: 45px;
+	height: 55px;
+	display: block;
+	margin-left: 103px;
+	margin-top: 68px;
+}
+#tubiao li:hover #tu_c{
+	background:url(../images/iconBack.png)-154px -107px;
+	width: 45px;
+	height: 55px;
+	display: block;
+	margin-left: 103px;
+	margin-top: 68px;
+}
+#tubiao li #tu_c{
+	background:url(../images/iconBack.png)-154px 0px;
+	width: 45px;
+	height: 55px;
+	display: block;
+	margin-left: 103px;
+	margin-top: 68px;
+}
+#tubiao li p{
+	margin-top: 10px;
+	font-size: 17px;
+}

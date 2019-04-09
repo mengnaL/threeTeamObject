@@ -182,6 +182,13 @@ body{
 #H-box #B-ul .active{
 	font-size: 25px;
 }
+#H-box #B-ul li:hover>img{
+	width: 35px;
+	height: 35px;
+}
+#H-box #B-ul li:hover>span{
+	font-size: 25px;
+}
 #H-box #B-ul li img{
 	width: 30px;
 	height: 30px;
@@ -213,7 +220,7 @@ body{
 #H-box #B-search button{
 	width: 90px;
 	height: 35px;
-	background: url(img/6.png);
+	background: url(../images/6.png);
 	border: none;
 	position: relative;
 	top: 14px;
